@@ -1,0 +1,17 @@
+{
+    "name": "stacho/weather-core-php",
+    "description": "Core application for wheather integration",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.0.1",
+    "autoload": {
+        "psr-4": {
+            "Stacho\\WeatherCorePhp\\": "src/"
+        }
+    },
+    "require": {
+        "myclabs/php-enum": "^1.8",
+        "guzzlehttp/guzzle": "^7.4",
+      "ext-json": "*"
+    }
+}
